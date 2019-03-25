@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+      "*.js": "javascriptreact"
+  },
+  "addAngular.addTestFile": false,
+  "addAngular.stylesheet": "sass"
+}

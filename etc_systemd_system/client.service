@@ -1,0 +1,15 @@
+[Unit]
+Description=client service
+After=network.target
+
+[Service]
+User=ubuntu
+LimitNOFILE=1048576
+WorkingDirectory=/home/ubuntu/project/client
+ExecStart=/usr/bin/serve -s build
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

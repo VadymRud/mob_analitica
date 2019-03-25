@@ -1,0 +1,14 @@
+{
+  "name": "magic-square-crudtest",
+  "version": "0.0.1",
+  "private": true,
+  "main": "crud-test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  }
+}

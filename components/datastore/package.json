@@ -1,0 +1,16 @@
+{
+  "name": "magic-square-datastore",
+  "version": "0.0.1",
+  "private": true,
+  "main": "datastore.js",
+  "dependencies": {
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  }
+}

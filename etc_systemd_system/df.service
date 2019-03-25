@@ -1,0 +1,15 @@
+[Unit]
+Description=datafeed service
+After=network.target
+
+[Service]
+User=ubuntu
+LimitNOFILE=1048576
+WorkingDirectory=/home/ubuntu/msq/commands/data-service
+ExecStart=/usr/bin/node /home/ubuntu/msq/commands/data-service/check.js cc kraken cw
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

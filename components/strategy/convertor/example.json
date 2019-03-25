@@ -1,0 +1,52 @@
+{
+  "entryBuy":{
+    "condition":"or",
+    "groups":[
+      {"condition":"and", "id":"tgbuUQJylH", "indicators":[
+        {"id":"Ew80xJ7dzl", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 20, Cross)", "key":"vortex", "params":[20], "values":[], "condition":"above"},
+        {"id":"JPVh8jC9bZ", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 30, Cross)", "key":"vortex", "params":[30], "values":[], "condition":"crossOver"}
+      ]},
+      {"condition":"and", "id":"EAnMOpRaMs", "indicators":[
+        {"id":"gSAdbyOWnE", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 35, Cross)", "key":"vortex", "params":[35], "values":[], "condition":"below"},
+        {"id":"wNh50LP6PC", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 15, Cross)", "key":"vortex", "params":[15], "values":[], "condition":"crossUnder"}
+      ]}
+    ]
+  },
+  "entrySell":{
+    "condition":"or",
+    "groups":[
+      {"condition":"and", "id":"4Hvha0uK5L", "indicators":[
+        {"id":"UGhvtRf68j", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 40, Cross)", "key":"vortex", "params":[40], "values":[], "condition":"crossOver"},
+        {"id":"4lMGzKzkde", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 32, Cross)", "key":"vortex", "params":[32], "values":[], "condition":"crossUnder"}
+      ]},
+      {"condition":"and", "id":"EhA5383avs", "indicators":[
+        {"id":"8ZRhU5mlnh", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 58, Cross)", "key":"vortex", "params":[58], "values":[], "condition":"below"},
+        {"id":"LQlUoebatN", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 24, Cross)", "key":"vortex", "params":[24], "values":[], "condition":"above"}
+      ]}
+    ]
+  },
+  "exitBuy":{
+    "condition":"or", "groups":[
+      {"condition":"and", "id":"kaCJTiPipm", "indicators":[
+        {"id":"HCI2ChivGz", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 32, Cross)", "key":"vortex", "params":[32], "values":[], "condition":"below"},
+        {"id":"IkldQNyKlA", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 34, Cross)", "key":"vortex", "params":[34], "values":[], "condition":"crossOver"}
+      ]},
+      {"condition":"and", "id":"qUMUtiFU5t", "indicators":[
+        {"id":"kw3vTNv2DB", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 19, Cross)", "key":"vortex", "params":[19], "values":[], "condition":"below"},
+        {"id":"9ksJdkleSq", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 27, Cross)", "key":"vortex", "params":[27], "values":[], "condition":"above"}
+      ]}
+    ]
+  },
+  "exitSell":{
+    "condition":"or", "groups":[
+      {"condition":"and", "id":"tQuIBIkaID", "indicators":[
+        {"id":"Ht7AeWUXiN", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 50, Cross)", "key":"vortex", "params":[50], "values":[], "condition":"crossUnder"},
+        {"id":"XL2Sz37LkO", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 32, Cross)", "key":"vortex", "params":[32], "values":[], "condition":"above"}
+      ]},
+      {"condition":"and", "id":"KM9FogEG1v", "indicators":[
+        {"id":"sS4IpTuYEl", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 24, Cross)", "key":"vortex", "params":[24], "values":[], "condition":"crossOver"},
+        {"id":"acvCx6sAJn", "expanded":true, "visibleOnChart":true, "displayName":"Vortex(Period 18, Cross)", "key":"vortex", "params":[18], "values":[], "condition":"crossUnder"}
+      ]}
+    ]
+  }
+}

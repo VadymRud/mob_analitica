@@ -1,0 +1,17 @@
+{
+  "name": "magic-square-datafeed",
+  "version": "0.0.1",
+  "private": true,
+  "main": "datafeed.js",
+  "dependencies": {
+    "request": "^2.88.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  }
+}

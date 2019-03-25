@@ -1,0 +1,15 @@
+ssh msq 
+
+# client service
+cd project
+git pull origin client  
+sudo service client restart
+sudo service client status
+
+# stop
+sudo service client stop
+
+# check logs
+journalctl -u client 
+journalctl -u client --since="2019-02-06 16:00" | grep ""
+journalctl -u client --until="2019-02-06 16:00" | grep ERROR

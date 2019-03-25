@@ -1,0 +1,30 @@
+{
+  "name": "magic-square-admin-panel",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.12",
+    "swagger-ui-express": "^4.0.2",
+    "yamljs": "^0.3.0",
+    "express-openapi": "^4.1.2"
+  },
+  "devDependencies": {
+    "should": "^13.2.3",
+    "supertest": "^3.4.1"
+  },
+  "scripts": {
+    "start": "node api/admin-panel.js",
+    "serve": "node api/admin-panel.js & cd client && npm run start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

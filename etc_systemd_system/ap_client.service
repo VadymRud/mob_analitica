@@ -1,0 +1,15 @@
+[Unit]
+Description=admin-panel client service
+After=network.target
+
+[Service]
+User=ubuntu
+LimitNOFILE=1048576
+WorkingDirectory=/home/ubuntu/ap/commands/admin-panel/client
+ExecStart=/usr/bin/serve -s build -l 3000
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

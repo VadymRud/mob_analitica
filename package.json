@@ -1,0 +1,12 @@
+{
+  "name": "magic-square",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "install": "node postinstall.js",
+    "test_all": "./test.sh"
+  },
+  "dependencies": {
+    "json2csv": "^4.3.5"
+  }
+}

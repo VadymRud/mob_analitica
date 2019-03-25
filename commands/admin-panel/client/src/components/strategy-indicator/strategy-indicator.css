@@ -1,0 +1,35 @@
+.ct-chart {
+  padding: 20px 50px;
+}
+
+.work-data-inds {
+  /* display: flex; */
+  border: 5px dashed green;
+  padding: 20px 40px;
+}
+
+table {
+  border-spacing: 0;
+}
+
+td {
+  padding: 2px 8px;
+  border: 1px solid #d8d8d8;
+}
+
+.list-data {
+  display: flex;
+}
+
+.grf-input {
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: inset 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+}
+.grf-input select {
+  margin-left: 10px;
+}
+.list-data img {
+  position: absolute;
+  margin-top: 150px;
+}

@@ -1,0 +1,10 @@
+{
+    "source": "./src",
+    "destination": "./docs",
+    "plugins": [
+      {"name": "esdoc-standard-plugin"},
+      {"name": "esdoc-jsx-plugin", "option": {"enable": true}},
+      {"name": "esdoc-react-plugin"}
+    ],
+    "excludes": ["(node_modules|bower_components)"]
+  }

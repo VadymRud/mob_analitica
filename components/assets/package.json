@@ -1,0 +1,15 @@
+{
+  "name": "magic-square-assets",
+  "version": "0.0.1",
+  "private": true,
+  "main": "assets.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "mocha"
+  }
+}

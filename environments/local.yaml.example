@@ -1,0 +1,7 @@
+host:     http://127.0.0.1
+port:     10012
+
+mongodb:  mongodb://localhost:27017/
+database: data
+
+initAssetsDefault: 1

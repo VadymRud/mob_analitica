@@ -1,0 +1,24 @@
+.Menu {
+    width: 300px;
+    background-color: #88eeb6;
+    height: 100%;
+    
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    padding: 20px;
+}
+
+.Menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

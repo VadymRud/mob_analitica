@@ -1,0 +1,25 @@
+{
+  "name": "magic-square-strategy",
+  "version": "0.0.1",
+  "private": true,
+  "main": "strategy.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "csv-box": "^1.0.8",
+    "csvjson": "^5.1.0",
+    "csvtojson": "^2.0.8",
+    "ichimoku": "^1.0.4",
+    "json2csv": "^4.3.4",
+    "mathjs": "^5.4.2",
+    "ta-math": "^0.3.11",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "mocha",
+    "lint": "eslint ."
+  }
+}

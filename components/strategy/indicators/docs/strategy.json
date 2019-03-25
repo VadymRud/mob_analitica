@@ -1,0 +1,870 @@
+{
+  "entryBuy": {
+    "condition": "or",
+    "groups": [
+      {
+        "condition": "and",
+        "id": "I7cVtohdlo",
+        "indicators": [
+          {
+            "id": "7jYgAxVC4r",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 20, Cross )",
+            "key": "vortex",
+            "params": [
+              20
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "WKcii8EEcZ",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "dma",
+            "params": [
+              9,
+              14
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "bXMGASLnCs",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "rsi",
+            "params": [
+              9,
+              30
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "GNHdEfV03S",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "roc",
+            "params": [
+              9,
+              5
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "KjaQR7xCEW",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "bb",
+            "params": [
+              9,
+              1.5
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "BxdzvVxaaw",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "stochastic",
+            "params": [
+              14,
+              3
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "m85Rut032Y",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "macd",
+            "params": [
+              12,
+              26,
+              9
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "ICgJa39Eut",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "sar",
+            "params": [
+              0.02,
+              0.2
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          },
+          {
+            "id": "LC8pOPPJk6",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "adx",
+            "params": [
+              14,
+              10,
+              10
+            ],
+            "values": [
+              
+            ],
+            "condition": "greater"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "0LWaYE6cEE",
+        "indicators": [
+          {
+            "id": "4lj6SWvTSg",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "yWUdDysCRe",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "sdjebctujW",
+        "indicators": [
+          {
+            "id": "GNy7x9l5vd",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "cAhGTdkkif",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      }
+    ]
+  },
+  "entrySell": {
+    "condition": "or",
+    "groups": [
+      {
+        "condition": "and",
+        "id": "dbxS4kVeNa",
+        "indicators": [
+          {
+            "id": "YToW9LjVYg",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 20, Cross )",
+            "key": "vortex",
+            "params": [
+              20
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "F7i0IZunEc",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "dma",
+            "params": [
+              9,
+              14
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "ZRrdil4gIB",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "rsi",
+            "params": [
+              9,
+              30
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "Fwjyh3TdnJ",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "roc",
+            "params": [
+              9,
+              5
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "maPnz9HCFO",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "bb",
+            "params": [
+              9,
+              1.5
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "q8453K32N3",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "stochastic",
+            "params": [
+              14,
+              3
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "naAOxYuhms",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "macd",
+            "params": [
+              12,
+              26,
+              9
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "D3EamvnN2Y",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "sar",
+            "params": [
+              0.02,
+              0.2
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          },
+          {
+            "id": "bHA8ae8l2O",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "adx",
+            "params": [
+              14,
+              10,
+              10
+            ],
+            "values": [
+              
+            ],
+            "condition": "greater"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "swvyqXSoRp",
+        "indicators": [
+          {
+            "id": "LTPmpY4bcg",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "wQmOmZY40s",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "zParZQYBUW",
+        "indicators": [
+          {
+            "id": "m7aIZqRLpX",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "2S3LK7hzdw",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      }
+    ]
+  },
+  "exitBuy": {
+    "condition": "or",
+    "groups": [
+      {
+        "condition": "and",
+        "id": "i5qIcdhGUr",
+        "indicators": [
+          {
+            "id": "JFnLFBfTkW",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 20, Cross )",
+            "key": "vortex",
+            "params": [
+              20
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "bqQmbHdUfG",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "dma",
+            "params": [
+              9,
+              14
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "JaCNGvU1fS",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "rsi",
+            "params": [
+              9,
+              30
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "LQ3rVzLOS4",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "roc",
+            "params": [
+              9,
+              5
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "ApIG3ee9Rv",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "bb",
+            "params": [
+              9,
+              1.5
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "9J4mUPG4NQ",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "stochastic",
+            "params": [
+              14,
+              3
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "ci1HmYJiUq",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "macd",
+            "params": [
+              12,
+              26,
+              9
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "ynVJrhfJvF",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "sar",
+            "params": [
+              0.02,
+              0.2
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          },
+          {
+            "id": "ylKr4XFKxP",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "adx",
+            "params": [
+              14,
+              10,
+              10
+            ],
+            "values": [
+              
+            ],
+            "condition": "greater"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "ly4oKuAlk6",
+        "indicators": [
+          {
+            "id": "ATlFkBgfca",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "8Tr9CNZo1C",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "tSJO3xlzEu",
+        "indicators": [
+          {
+            "id": "87VwG9QXFt",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "5muAVIV1ys",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      }
+    ]
+  },
+  "exitSell": {
+    "condition": "or",
+    "groups": [
+      {
+        "condition": "and",
+        "id": "baBgXIzeNO",
+        "indicators": [
+          {
+            "id": "pvdmoaSUFq",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 20, Cross )",
+            "key": "vortex",
+            "params": [
+              20
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "seiTxT1UOM",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "dma",
+            "params": [
+              9,
+              14
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "sfmDFy3blB",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "rsi",
+            "params": [
+              9,
+              30
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "6OFCA2SWsP",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "roc",
+            "params": [
+              9,
+              5
+            ],
+            "values": [
+              
+            ],
+            "condition": "lessThan"
+          },
+          {
+            "id": "cx05FYS3HW",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "bb",
+            "params": [
+              9,
+              1.5
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "ehrkDJqfnW",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "stochastic",
+            "params": [
+              14,
+              3
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "DKqcHNgSNx",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "macd",
+            "params": [
+              12,
+              26,
+              9
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver",
+            "conditionParam": "1"
+          },
+          {
+            "id": "UXbUcDO2v0",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "sar",
+            "params": [
+              0.02,
+              0.2
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          },
+          {
+            "id": "PT8zJg9ElA",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 30, Cross )",
+            "key": "adx",
+            "params": [
+              14,
+              10,
+              10
+            ],
+            "values": [
+              
+            ],
+            "condition": "greater"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "FmtEx5oQFA",
+        "indicators": [
+          {
+            "id": "zxHZNfxcW1",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "nmQ7K0kqCb",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      },
+      {
+        "condition": "and",
+        "id": "tzQnkLiyJQ",
+        "indicators": [
+          {
+            "id": "dILib7hazf",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 35, Cross )",
+            "key": "vortex",
+            "params": [
+              35
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossOver"
+          },
+          {
+            "id": "6k1fnvW6aI",
+            "expanded": true,
+            "visibleOnChart": true,
+            "displayName": "Vortex( Period 15, Cross )",
+            "key": "vortex",
+            "params": [
+              15
+            ],
+            "values": [
+              
+            ],
+            "condition": "crossUnder"
+          }
+        ]
+      }
+    ]
+  }
+}
